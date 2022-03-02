@@ -130,11 +130,11 @@
 // for (let i of students) {
 //   if (i.kpi > 50) {
 //     container.append(
-//       `<div class="yellow"><span>${i.name}</span>${i.kpi}<span></span></div>`
+//       `<div class="yellow"><span>${i.name}</span><span>${i.kpi}</span></div>`
 //     );
 //   } else if (i.kpi < 50) {
 //     container.append(
-//       `<div class="green"><span>${i.name}</span>${i.kpi}<span></span></div>`
+//       `<div class="green"><span>${i.name}</span><span>${i.kpi}</span></div>`
 //     );
 //   }
 // }
